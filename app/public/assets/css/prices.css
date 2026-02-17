@@ -1,0 +1,43 @@
+.section-title {
+  color: #0b2a6f;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.price-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 1.05rem;
+  position: relative;
+}
+
+.price-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  border-bottom: 2px dotted #000;
+  z-index: 0;
+}
+
+.price-item span {
+  background: #f8f9fa;
+  padding: 0 8px;
+  z-index: 1;
+}
+
+.price-item span:last-child {
+  font-weight: 500;
+}
+
+.highlight span:first-child {
+  font-weight: 500;
+}
+
+.form-check .form-check-input {
+  cursor: pointer !important;
+}

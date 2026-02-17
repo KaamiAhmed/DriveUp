@@ -1,0 +1,142 @@
+footer {
+  color: #ea5b13;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ea5b13;
+}
+
+.box-shadow {
+  box-shadow: 3px 3px 3px rgba(234, 91, 19, 0.5);
+}
+
+footer .row ul li {
+  border: 1px solid #ea5b13;
+  padding: 15px 50px;
+}
+
+.opening-hours {
+  padding: 15px 20px;
+}
+
+.timings {
+  width: 40%;
+}
+
+.timings-review {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.opening-hours h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.opening-hours ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.opening-hours li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.opening-hours li:last-child {
+  border-bottom: none;
+}
+
+.form {
+  border: 1px solid #ea5b13;
+  border-radius: 10px;
+  padding: 5px;
+  /* text-align: center; */
+  transform: rotate(-2deg);
+}
+
+.form-btn {
+  border: 2px solid #ea5b13;
+  background-color: #ea5b13;
+  color: white;
+  font-weight: 700;
+  padding: 10px 15px;
+  margin-left: 45px;
+  width: 80%;
+}
+
+.form-btn:hover {
+  background-color: #d04e10 !important;
+  color: white;
+  transform: translateY(-2px);
+}
+
+#review {
+  resize: none;
+}
+
+.whatsapp-button {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+  background-color: #25d366;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  animation: pulse 2s infinite;
+  z-index: 1000;
+}
+
+/* Pulsating animation */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-list {
+    font-size: 18px;
+  }
+
+  .timings-review {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+  }
+
+  .timings {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-button {
+    width: 100%;
+  }
+
+  .opening-hours {
+    padding: 10px 15px;
+  }
+  .opening-hours li span {
+    font-size: 14.5px;
+  }
+}

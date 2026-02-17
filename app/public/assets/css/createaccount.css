@@ -1,0 +1,55 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.form-control {
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.form-label {
+  font-weight: bold;
+}
+.form-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #222;
+  border-radius: 10px;
+}
+
+.passed {
+  text-decoration: line-through;
+  color: green;
+}
+
+.position {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 80px;
+}
+
+.bi,
+.bi-eye-fill {
+  color: black;
+  position: absolute;
+  right: 10px;
+  bottom: 6px;
+}
+
+.password-block {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.backBtn {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  margin-left: 8%;
+  cursor: pointer;
+}

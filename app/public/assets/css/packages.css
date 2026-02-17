@@ -1,0 +1,43 @@
+.packages .price {
+  font-size: 50px;
+}
+
+.packages .card-style {
+  background-color: #ffffff;
+  color: #121113;
+  padding: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.packages .borderbottom {
+  border-bottom: 1px solid #e8eaed;
+  padding: 13px 0;
+}
+
+.packages h1 {
+  color: #ea5b13;
+  font-weight: bold;
+}
+
+.packages ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding: 15px 0;
+}
+
+.pkg-btn {
+  border: 2px solid #ea5b13;
+  background-color: #ea5b13;
+  color: white;
+  font-weight: 700;
+  padding: 10px 15px;
+  margin-left: 45px;
+  width: 80%;
+}
+
+.pkg-btn:hover {
+  background-color: #d04e10 !important;
+  color: white;
+  transform: translateY(-2px);
+}
