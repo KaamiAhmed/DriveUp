@@ -17,10 +17,10 @@ class Repository{
 
     private function connect(){
         try{
-            $connectionString = 'mysql:host=' . Config::DB_SERVER_NAME . ';dbname=' . Config::DB_NAME . ';charset=utf8mb4';
+            $connectionString = 'mysql:host=' . Config::$DB_SERVER_NAME . ';dbname=' . Config::$DB_NAME . ';charset=utf8mb4';
 
             //create PDO connection
-            self::$connection = new PDO($connectionString, Config::DB_USERNAME, Config::DB_PASSWORD);
+            self::$connection = new PDO($connectionString, Config::$DB_USERNAME, Config::$DB_PASSWORD);
 
             self::$connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         }
